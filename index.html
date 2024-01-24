@@ -59,9 +59,9 @@
   </script>
 </head>
 <body>
-    <header>
+    <header class="w-11/12 mx-auto">
       <!-- navbar -->
-        <nav class="container mx-auto">
+        <nav >
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -69,11 +69,11 @@
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a href="#" class="hover:text-color">Home</a></li>
-                        <li><a href="#" class="hover:text-color">About</a></li>
-                        <li><a href="#" class="hover:text-color">Pages</a></li>
-                        <li><a href="#" class="hover:text-color">Blog</a></li>
-                        <li><a href="#" class="hover:text-color">Contact</a></li>
+                        <li><a href="#" class="hover:text-logo">Home</a></li>
+                        <li><a href="#" class="hover:text-logo">About</a></li>
+                        <li><a href="#" class="hover:text-logo">Pages</a></li>
+                        <li><a href="#" class="hover:text-logo">Blog</a></li>
+                        <li><a href="#" class="hover:text-logo">Contact</a></li>
                         
                      </ul>
                   </div>
@@ -90,7 +90,7 @@
                   </ul>
                 </div>
                 <div class="navbar-end flex gap-5">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-magnifying-glass hidden lg:flex md:flex"></i>
                   <a class="btn bg-btn-color hover:bg-btn-hover text-white">Get Ticket</a>
                 </div>
               </div>
@@ -104,14 +104,16 @@
       <div id="slide1" class="carousel-item relative w-full">
           <div class="w-full " >
             <div >
-            <div class="lg:relative flex flex-col justify-center items-center gap-5 bg-[url(Images/1.png)] bg-no-repeat bg-cover bg-center h-[500px]  w-full rounded-xl "></div></div>
+            <div class="lg:relative flex flex-col justify-center items-center gap-5 bg-[url(Images/1.png)] bg-no-repeat bg-cover bg-center h-[500px]  w-full rounded-xl "></div>
+          
+          </div>
              
               <div class="lg:w-[500px] p-5 rounded-xl  bg-heading  lg:absolute lg:right-6 lg:bottom-6 space-y-4 mt-5">
                   <h2 class="text-amber-100 font-semibold text-2xl ">Meet all the heroes from the field</h2>
                   <p class="text-white">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
               </div>
           </div>
-          <div class="absolute flex gap-2 transform -translate-y-1/2 lg:left-5  lg:bottom-8  items-center justify-center left-5 right-5 bottom-48 ">
+          <div class="absolute flex lg:justify-between gap-3 transform -translate-y-1/2 lg:left-0 lg:right-0 lg:top-1/2  bottom-1/3 w-full lg:w-11/12 mx-auto justify-center">
             <a href="#slide3" class="btn btn-circle">❮</a> 
             <a href="#slide2" class="btn btn-circle">❯</a>
           </div>
@@ -127,7 +129,7 @@
                 <p class="text-white">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
         </div>
-          <div class="absolute flex gap-2 transform -translate-y-1/2 lg:left-5  lg:bottom-8  items-center justify-center left-5 right-5 bottom-48 ">
+          <div class="absolute flex lg:justify-between gap-3 transform -translate-y-1/2 lg:left-0 lg:right-0 lg:top-1/2  bottom-1/3 w-full lg:w-11/12 mx-auto justify-center">
             <a href="#slide1" class="btn btn-circle">❮</a> 
             <a href="#slide3" class="btn btn-circle">❯</a>
           </div>
@@ -143,7 +145,7 @@
                 <p class="text-white">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
         </div>
-          <div class="absolute flex gap-2 transform -translate-y-1/2 lg:left-5  lg:bottom-8  items-center justify-center left-5 right-5 bottom-48 ">
+          <div class="absolute flex lg:justify-between gap-3 transform -translate-y-1/2 lg:left-0 lg:right-0 lg:top-1/2  bottom-1/3 w-full lg:w-11/12 mx-auto justify-center">
             <a href="#slide2" class="btn btn-circle">❮</a> 
             <a href="#slide1" class="btn btn-circle">❯</a>
           </div>
